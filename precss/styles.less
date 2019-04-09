@@ -1,0 +1,1691 @@
+@import "smart-grid.less";
+
+.reset();
+
+.wrapper{
+    .wrapper();
+}
+.debug{
+    .debug(rgba(0, 0, 0, 0.5), 1px solid #ff0);
+}
+.wrapppper{
+    overflow-x: hidden !important;
+}
+body{
+    overflow-x: hidden !important;
+}
+header nav{
+    margin-top: 53px;
+    display: flex;
+}
+
+.middle__navigation {
+    display: flex;
+    align-items: center;
+    a{
+         color: #747474;
+    text-decoration: none;
+    font-family: "Apercu Pro";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "КАФЕДРЫ" */
+    letter-spacing: 1.4px;
+    margin-left: 67px;   
+    }
+    }
+.middle__navigation ul{
+    display: flex;
+}
+.content h1{
+    color: #000000;
+    font-family: "Arial MT";
+    font-size: 35px;
+    line-height: 50px;
+    /* Text style for "М, еждунар" */
+    font-family: Arial;
+    letter-spacing: 5.6px;
+}
+.content p{
+    margin: 36px 0 78px;
+color: #575757;
+font-family: "Apercu Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+/* Text style for "Ведущее уч" */
+letter-spacing: 1.28px;
+    max-width: 443px;
+}
+.background1{
+    margin-top: 48px;
+    padding: 123px 0 0 125px;
+    box-sizing: border-box;
+    max-width: 1300px;
+    min-height: 730px;
+    background: url(../img/BACKGROUND.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.button__sign{
+box-sizing: border-box;
+width: 373px;
+height: 50px;
+border-radius: 5px;
+background-color: #776aa2;
+    a{
+        position: relative;
+display: flex;
+       padding-left: 33px;
+text-decoration: none;
+color: #ffffff;
+font-family: "Apercu Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 50px;
+/* Text style for "Регистраци" */
+letter-spacing: 1.92px;
+    span{
+        position: absolute;
+margin-top: 25px;
+left: 280px;
+width: 30px;
+height: 1px;
+background-color: #ffffff;
+transition: all 0.3s ease-in;
+    } 
+    }
+}
+ .button__sign:hover{
+     span{
+        transition: all 0.2s ease-out;
+         width: 79px;
+     }  
+    }
+.catalog__choice {
+    margin-top: 259px;
+border-left: 2px solid  #fca67f;
+height: 81px;
+    box-sizing: border-box;
+    padding-left: 85px;
+    display: flex;
+    align-items: center;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    li{
+     margin-left: 107px;
+       
+    }
+    li:first-child{
+    margin-left: 0;
+    }
+    a{
+text-decoration: none;
+text-transform: uppercase;
+color: #9b9a9a;
+font-family: "Apercu Pro";
+font-size: 16px;
+font-weight: 700;
+letter-spacing: 1.92px;
+transition: after .4s ease-in;
+        &::after{
+            position: relative;
+            margin-top: 5px;
+    content: '';
+    display: block;
+    width: 0%;
+    height: 1px;
+    background: #fca67f;
+    transition: width .3s;
+        }
+        &:hover::after{
+            width: 100%;
+            transition: all .3s ease-in;
+        }
+        &:hover{
+            color: #423f5a;
+            
+        }
+    }
+}
+.kind__faculties{
+ position: relative;
+    h3{
+color: #3d3a56;
+font-family: "PT Sans";
+font-size: 28px;
+font-weight: 700;
+line-height: 50px;
+/* Text style for "Ф, акульте" */
+letter-spacing: 4.48px;
+        position: relative;
+       
+    }
+     &::before{
+            position: absolute;
+            top: 0;
+            left: 195px;
+            content: url(../img/faculty-shield.png);
+        }
+}
+.block__white{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    margin-top: 115px;
+    box-sizing: border-box;
+    padding: 74px 120px 0 99px;
+    min-height: 626px;
+    width: 100%;
+box-shadow: 0 7px 21px rgba(0, 0, 0, 0.22);
+border-radius: 15px;
+}
+.flex__white__block{
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a{
+display: flex;
+text-decoration: none;
+color: #7a7a7a;
+font-family: "PT Sans";
+font-size: 16px;
+font-weight: 700;
+line-height: 25px;
+/* Text style for "Радиотехни" */
+letter-spacing: 2.56px;
+        min-height: 50px;
+         transition: 0.4s ease-in;
+        &:hover{
+            font-weight: 700;
+            color: #000;
+            transition: 0.2s ease-in;
+        }
+span{
+    margin-top: 12px;
+    margin-right: 24px;
+width: 37px;
+height: 2px;
+background-color: #ffb4a2;
+    }
+    }
+
+}
+.facult{
+    position: relative;
+}
+.main__flex{
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.circle1{
+    position: absolute;
+    top: 326px;
+    z-index: -1;
+}
+.circle2{
+    position: absolute;
+    right: 0;
+    top: 112px;
+    z-index: -1;
+}
+
+.flex__deal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img__ros{
+align-self: center;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+.block__purpule{
+    flex-basis: 688px;
+    flex-grow: 1;
+    position: relative;
+    box-sizing: border-box;
+    padding: 90px 0 30px 60px;
+    max-width: 688px;
+min-height: 498px;
+background-color: #5b4e87;
+    p{
+        margin-bottom: 60px;
+max-width: 526px;
+color: #ffffff;
+font-family: "PT Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 1.4px
+    }
+    &::before{
+        position: absolute;
+        content:'';
+        top: 43px;
+        right: -33px;
+        width: 66px;
+height: 2px;
+background-color: #ffaf9f;
+        z-index: 2;
+    }
+}
+.international{
+    margin-bottom: 43px;
+    color: #ffffff;
+font-family: "Apercu Pro";
+font-size: 25px;
+font-weight: 700;
+line-height: 50px;
+/* Text style for "Международ" */
+letter-spacing: 0.5px;
+}
+.button__inter{
+width: 240px;
+height: 44px;
+border-radius: 20px;
+background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #000000;
+font-family: "Apercu Pro";
+font-size: 18px;
+font-weight: 500;
+line-height: 50px;
+/* Text style for "У, знать п" */
+letter-spacing: 0.36px;
+    }
+}
+
+
+
+.flex__hi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hi{
+position: relative;
+color: #000000;
+font-family: "Apercu Pro";
+font-size: 35px;
+font-weight: 400;
+line-height: 45px;
+/* Text style for "Приветстви" */
+letter-spacing: 2.1px;
+}
+.block__hi{
+    position: relative;
+    margin-top: 300px;
+    p{
+        margin-bottom: 55px;
+        margin-top: 47px;
+max-width: 510px;
+color: #000000;
+font-family: "Apercu Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 35px;
+/* Text style for "М, еждунар" */
+letter-spacing: 0.96px;
+    }
+}
+.button__hi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+max-width: 347px;
+height: 57px;
+border-radius: 10px;
+background-color: #7d6fac;
+    a{
+        text-decoration: none;
+        color: #ffffff;
+font-family: "Apercu Pro";
+font-size: 20px;
+font-weight: 400;
+line-height: 35px;
+/* Text style for "Задать воп" */
+letter-spacing: 1.2px;
+    }
+}
+.wave1,.wave2,.wave3,.wave4{
+    position: absolute;
+    z-index: -1;
+}
+.wave1{
+    top: -10px;
+    right: 300px;
+}
+.wave2{
+    top: -150px;
+    left: 140px;
+}
+.wave3{
+    top: 500px;
+    left: 560px;
+}
+.wave4{
+    top:165px;
+    left: 100px;
+}
+.flex-wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    div{
+   
+        
+    }
+    p{
+        color: #000000;
+font-family: "Apercu Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+/* Text style for "С, ертифик" */
+letter-spacing: 2.56px;
+      display: inline-block;  
+        align-self: center;
+        position: relative;
+        
+        &::before{
+            display: inline-block;
+            content: "";
+            width: 1px;
+            height: 22px;
+            background-color: #e5989b;
+            position: relative;
+            left: -12px;
+            vertical-align: middle;
+        }
+    }
+    svg{
+        align-self: center;
+        position: relative;
+        top: 3px;
+        width: 25px;
+        height: 25px;
+    }
+}
+.flex-element{
+    width: 538px;
+      height: 77px;
+    box-shadow: 0 2px 13px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    background-color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 35px;
+        flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.students{
+    margin-top: 300px;
+    h2{
+        text-align: center;
+        color: #000000;
+font-family: "Apercu Pro";
+font-size: 35px;
+font-weight: 700;
+line-height: 50px;
+/* Text style for "Что получа" */
+letter-spacing: 2.8px
+    }
+    margin-bottom: 300px;
+}
+
+.line-get{
+    
+    margin: 0 auto;
+    width: 111px;
+        height: 3px;
+        background-color: #fca67f;
+    margin-top: 14px;
+    margin-bottom: 100px;
+}
+
+.partners{
+    h2{
+        color: #000000;
+font-family: "Apercu Pro";
+font-size: 25px;
+font-weight: 700;
+line-height: 35px;
+/* Text style for "Мы сотрудн" */
+letter-spacing: 0.5px;
+        margin-bottom: 58px;
+        text-align: center;
+    }
+    margin-top: 210px;
+}
+.block_partners{
+    background-color: #f5dcd6;
+    padding: 70px 0px;
+}
+.partners-img{
+    padding: 30px 0px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner-wrap{
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-saz{
+    flex-grow: 1;
+    flex-basis: 400px;
+    position: relative;
+    &::before{
+        position: absolute;
+        z-index: -1;
+        left: -105px;
+        top: -100px;
+        content: url(../img/circles.png);
+    }
+}
+.wrap-saz{
+    display: flex;
+    max-width: 1205px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        color: #010101;
+font-family: "Apercu Pro";
+font-size: 20px;
+font-weight: 400;
+line-height: 35px;
+/* Text style for "“В рамках" */
+letter-spacing: 0.4px;
+        max-width: 578px;
+        margin-bottom: 40px;
+    }
+    p:last-child{
+      font-size: 14px;  
+        line-height: 25px;
+        color: #7b7b7b;
+        padding-bottom: 40px;
+        border-bottom: 2px solid #776aa2;
+    }
+}
+
+.saz{
+   margin-top: 200px; 
+}
+
+footer{
+    background-color: #5b4e87;
+    padding: 70px 0px;
+}
+
+
+.footer-block{
+    h4{
+        color: #ffffff;
+font-family: "Apercu Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 35px;
+/* Text style for "П, риёмная" */
+letter-spacing: 0.32px;
+    }
+    h3{
+        color: #ffffff;
+font-family: "Apercu Pro";
+font-size: 25px;
+font-weight: 400;
+line-height: 35px;
+/* Text style for "А, дрес" */
+letter-spacing: 0.5px;
+        margin-bottom: 30px;
+    }
+    ul{
+        li{
+            a{
+            
+                text-decoration: none;
+                color: #ffffff;
+                font-family: "Apercu Pro";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 35px;
+                /* Text style for "П, риёмная" */
+                letter-spacing: 0.32px;
+            
+            }
+        }
+    }
+    
+    p{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        a{
+            color: #ffffff;
+font-family: "Apercu Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 35px;
+/* Text style for "П, риёмная" */
+letter-spacing: 0.32px;
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+
+
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    form{
+        
+        input{
+            display: block;
+            color: #e0e0e0;
+            font-family: "Apercu Pro";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 35px;
+            /* Text style for "Имя" */
+            letter-spacing: 2.24px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid #fff;
+             outline: none;
+            width: 250px ;
+            
+            
+        }
+       
+        input::-webkit-input-placeholder {
+            color: #e0e0e0;
+            font-family: "Apercu Pro";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 35px;
+            /* Text style for "Имя" */
+            letter-spacing: 2.24px;
+}
+      
+input:-moz-placeholder { /* Firefox 18- */
+    color: #e0e0e0;
+            font-family: "Apercu Pro";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 35px;
+            /* Text style for "Имя" */
+            letter-spacing: 2.24px;
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: #e0e0e0;
+            font-family:"Apercu Pro";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 35px;
+            /* Text style for "Имя" */
+            letter-spacing: 2.24px;
+}
+ 
+input:-ms-input-placeholder {  
+   color: #e0e0e0;
+            font-family: "Apercu Pro";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 35px;
+            /* Text style for "Имя" */
+            letter-spacing: 2.24px;
+}
+        button{
+            border: none;
+            width: 102px;
+            height: 36px;
+            background-color: #000000;
+            outline: none;
+            color: #ffffff;
+            font-family: "Apercu Pro";
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 35px;
+            /* Text style for "О, тправит" */
+            letter-spacing: 0.32px;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+    }
+}
+.margin{
+    margin-bottom: 40px;
+}
+
+.button-footer-contacts{
+    a{
+        color: #ffffff;
+        font-family: "Apercu Pro";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 35px;
+        /* Text style for "К, онтакты" */
+        letter-spacing: 0.32px;
+        text-decoration: none;
+        width: 102px;
+        height: 36px;
+        background-color: #000000;
+        padding: 11px 15px;
+    }
+    
+}
+.buttons-footer{
+    margin-top: 20px;
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+    
+}
+
+
+.buro{
+    margin-top: 265px;
+}
+.info__buro{
+width: 240px;
+    flex-grow: auto;
+    flex-basis: 240px;
+min-height: 545px;
+box-sizing: border-box;
+padding: 55px 0 0 38px;
+box-shadow: 0 5px 17px 4px rgba(0, 0, 0, 0.15);
+background-color: #ffffff;
+    border-left: 1px solid #776aa2 ;
+}
+.pse__buro{
+    div:first-child{
+        	display: inline-block;
+        vertical-align: middle;
+    }
+    svg{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left: -10px;
+    }
+    span{
+        display: inline-block;
+        vertical-align: middle;
+    }
+         a{
+text-decoration: none;
+ color: #8b8b8b;
+font-family: "Apercu Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+/* Text style for "Гранты" */
+letter-spacing: 1.92px;
+       display: inline-block;
+         vertical-align:middle;
+              &:hover{
+        transition: 0.3s ease-out;
+        color: #776aa2;
+        font-weight: 700;
+        font-family: "Apercu Pro";
+        cursor: pointer;
+            }
+             
+             
+             &:focus{
+                 color: #3d3a56;
+                 font-weight: 700;
+             }  
+             &:active{
+               color: #3d3a56;
+                 font-weight: 700;  
+             }
+             
+             
+    }   
+    margin-bottom: 52px;
+}
+
+.buro{
+    position: relative;
+}
+.figure__buro{
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    img{
+        opacity: .55;
+    }
+}
+.buro_tab{
+    transition: 0.3s ease-out;
+    display: inline-block;
+    margin-bottom: 52px;
+}
+
+
+.ui-tabs-active, .ui-state-active{
+    a{
+        color: #3d3a56 !important;
+    font-weight: 700!important;  
+    }
+}
+
+.flex__buro{
+display: flex;
+flex-wrap: wrap;
+}
+.content__buro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 95px;
+    padding: 0 90px 0 40px;
+max-width: 729px;
+height: 260px;
+box-shadow: 0 5px 17px 4px rgba(0, 0, 0, 0.24);
+border-radius: 5px;
+background-color: #ffffff;
+    p{
+        display: block;
+color: #000000;
+font-family: "Apercu Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 35px;
+/* Text style for "1, 100 гос" */
+letter-spacing: 1.92px;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: '';
+            width: 2px;
+            height: 100%;
+            left: -16px;
+            background-color: #79c1de;
+            vertical-align: middle;
+        }
+    }
+}
+.tab--block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ui-tabs-anchor{
+    outline: none !important;
+}
+
+.block__slider{
+    margin-top: 128px;
+    display: flex !important;
+}
+
+.slider-slick{
+    outline: none;
+}
+.block__slider, .slick-slide, .slick-current, .slick-active{
+    outline: none;
+}
+.sliderr{
+    position: relative;
+    margin-top: 236px;
+    &::after{
+        position: absolute;
+        z-index: -1;
+        content: '';
+        top: 25px;
+        left: 0;
+        width: 481px;
+height: 699px;
+background-color: #d8cfeb;
+    }
+}
+.news__university{
+color: #000000;
+font-family: "Apercu Pro";
+font-size: 25px;
+font-weight: 400;
+line-height: 35px;
+/* Text style for "Н, овости" */
+letter-spacing: 0.5px;
+width: 100%;
+    text-align: right;
+    position: relative;
+    &::after{
+        position: absolute;
+        right: 0;
+       display: block;
+       content: '';
+        
+      margin-top: 10px;
+        width: 267px;
+        height: 4px;
+        background: #6d58b4;
+    }
+}
+
+.slider__content{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    padding-left: 40px;
+    margin-top: 90px;
+    h3{
+color: #000000;
+font-family: "Apercu Pro";
+font-size: 25px;
+font-weight: 700;
+line-height: 35px;
+/* Text style for "2, 0-ЛЕТИЕ" */
+letter-spacing: 0.5px;
+        &::after{
+            position: relative;
+            margin-top: 5px;
+            display: block;
+            content: '';
+            left: 0px;
+            width: 61px;
+            height: 4px;
+background-color: #7759ff;
+        }
+    }
+}
+.button__slider{
+    display: flex;
+    margin-top: 44px;
+    justify-content: center;
+    align-items: center;
+width: 148px;
+height: 42px;
+    transition: 0.3s ease-out;
+background-color: #898fe7;
+    a{
+        text-decoration: none;
+        color: #fffefe;
+font-family: "Apercu Pro";
+font-size: 22px;
+font-weight: 500;
+line-height: 35px;
+/* Text style for "Читать" */
+letter-spacing: 0.44px;
+        
+    }
+    &:hover{
+        background-color: #4120a3;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+    }
+}
+.left__1, .right__1{
+cursor: pointer;
+}
+
+.click__slider{
+    margin: 95px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 149px;
+height: 66px;
+background-color: #4120a3;
+    
+    div:last-child{
+        padding-left: 49px;
+    }
+}
+
+
+.data{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+.menu__gamburger__1{
+    display: none;
+}
+.menu{
+    z-index: 10;
+    position: fixed;
+    background: #101010;
+    height: 100vh;
+    width: 100%;
+    top: -120%;
+}
+.overlay__menu{
+    display: none;
+}
+.overflow__none{
+     overflow: hidden !important;
+}
+
+.photo{
+   margin-top: 100px;
+    img{
+        width: 356px;
+        height: 316px;
+    }
+    margin-bottom: 200px;
+    h3{
+        color: #000000;
+font-family: "Apercu Pro";
+font-size: 35px;
+font-weight: 700;
+line-height: 35px;
+/* Text style for "Ф, отограф" */
+letter-spacing: 0.7px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+}
+.grid-photo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img-ph{
+   position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+       transition: 0.5s ease-out;
+    img{
+      height: 100%;  
+        
+    }
+}
+.text__photo a:hover span{
+    left: 40px;
+}
+.img-ph:hover .text__photo{
+    left: 0%;
+   
+}
+.img-ph:hover {
+    transition: 0.5s ease-out;
+    transform: scale(1.2);
+}
+.text__photo{
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(119,106,162, .7);
+    transition: 0.5s ease-out;
+}
+.next{
+    width: 23px;
+    height: 19px;
+}
+.text__photo{
+    span{
+        position: relative;
+        left: 20px;
+         transition: 0.5s ease-out;
+    }
+    img{
+         width: 23px !important;
+        height: 19px !important;
+    }
+    a{
+        display: block;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        text-decoration: none;
+        color: #fffefe;
+font-family: "Apercu Pro";
+font-size: 30px;
+font-weight: 300;
+line-height: 35px;
+/* Text style for "Читать" */
+letter-spacing: 0.44px;
+    }
+}
+
+
+.success{
+    display:none;
+   z-index: 2;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    padding: 45px 20px;
+    transform: translate(-50%, -50%);
+    h4{
+color: black;
+font-family:  "Apercu Pro";
+font-size: 30px;
+font-weight: 500;
+letter-spacing: 0.96px;  
+        margin-bottom: 10px;
+    }
+    p{
+     color: #747474;
+font-family:  "Apercu Pro";
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.96px;
+        line-height: 25px;
+    }
+    
+}
+.overlay{
+    position: fixed;
+    display: none;
+    z-index: 1;
+background-color: black;
+    opacity: 0.85;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.close__form{
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: black;
+font-family:  "Apercu Pro";
+font-size: 30px;
+font-weight: 500;
+letter-spacing: 0.96px;  
+        margin-bottom: 10px;
+}
+.show__form{
+    display: block;
+}
+.none__form{
+    display: none;
+}
+
+
+
+
+
+.pop_up-window{
+   visibility: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.pop_up-window p{
+  text-align: center;
+    font-weight: 900;
+}
+.overlay1, .overlay2{
+    display: none;
+    z-index: 10;
+    background-color: rgba(0,0,0, 0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    width: 100%;
+    height: 100%;
+}
+.close-success{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.overlay1{
+    display: none;
+    z-index: 10;
+    background-color: rgba(0,0,0, 0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+.close-popup-x{
+    font-size: 30px;
+    background: #2a93d8;
+    padding: 3px 3px;
+    width: 50px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.popup1{
+    font-family: Circe;
+    z-index: 12;
+    display: none;
+    background-color: #ffffff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+     width: 500px;
+    text-align: center;
+    padding: 40px 25px;
+}
+.popup1 input{
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid grey;
+    width: 250px;
+    height: 50px;
+    padding: 0 5px;
+    margin-bottom: 15px;
+}
+.popup1 h2{ 
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+ 
+    font-family: Circe-regular;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+}
+.popup1 button{
+     outline: none;
+    border: none;
+    color: #fff;
+    background: #2a93d8;
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+.popup1 button:hover{
+background: #fdca00;
+transition: 0.3s ease-out;
+    color: black;
+}
+.close-popup-x:hover{
+   background: #fdca00;
+transition: 0.3s ease-out; 
+    color: black;
+}
+/*
+
+popup
+success
+*/
+.visible{
+    visibility:visible;
+}
+
+.none-block{
+    display: none;
+}
+.show-block{
+    display: block;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1340px){
+    .middle__navigation{
+        display: none;
+    }
+    header nav{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .overlay__menu{
+        position: absolute;
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        z-index: 999;
+        display: none;
+        a{
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+        }
+        ul{
+        position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+            
+        }
+        li{
+            a{
+                 color: #050505;
+            font-family: "Apercu Pro";
+            font-size: 30px;
+            margin-bottom: 30px;
+            font-weight: 400;
+
+            line-height: 35px;
+            /* Text style for "Н, овости" */
+            letter-spacing: 0.5px;
+                transition: 0.3s ease-out;
+                &:hover{
+                    color: #4120a3;
+                }
+            }
+            
+        }
+        li:nth-child(1).fadeInLeft1{
+            animation-delay: 0.2s;
+            font-size: 20px;
+           
+        }
+        li:nth-child(2).fadeInLeft1{
+            animation-delay: 0.4s
+        }
+        li:nth-child(3).fadeInLeft1{
+            animation-delay: 0.6s
+        }
+        li:nth-child(4).fadeInLeft1{
+            animation-delay: 0.8s
+        }
+        li:nth-child(5).fadeInLeft1{
+            animation-delay: 1s
+        }
+        li:nth-child(6).fadeInLeft1{
+           animation-delay: 1.2s; 
+        }
+
+    }
+    
+    .menu__gamburger__1{
+        display: block;
+        position: absolute;
+        top: 55px;
+        right: 30px;
+        z-index: 1000;
+    }
+    .open__1{
+      display: block;
+    }
+}
+@media screen and (max-width: 1200px){
+    .info__buro{
+        display: flex;
+        flex-wrap:wrap ;
+        flex-basis: 100%;
+        min-height: 150px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .block__slider{
+    display: block!important;
+    
+   
+        padding: 0 25px;
+        
+    }
+    .sliderr::after{
+        opacity: 0.3;
+    }
+    .slider__content{
+        
+       margin-top: 40px;
+        padding-left: 0px;
+    }
+    .button__slider{
+        
+    }
+    .pse__buro{
+        margin-bottom: 0;
+        padding-left: 30px;
+    }
+    .content__buro {
+        margin-left: 0;
+        height:auto;
+        padding: 25px 25px;
+    }
+    .tab--block{
+        margin: 25px auto;
+    }
+
+    .flex__white__block{
+       flex-basis: 300px;
+height: auto;
+        flex-grow: 1;
+        a{
+      min-height: 0px;
+        }
+        div{
+            margin-bottom: 60px;
+        }
+    }
+    .block__white{
+        padding: 40px;
+    }
+    
+}
+@media screen and(max-width:998px){
+    .catalog__choice li{
+        margin-left: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .catalog__choice{
+     padding: 30px;
+    }
+    .wrap-saz{
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .flex__deal{
+        justify-content: center;
+        
+    }
+    .img__ros{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .wave1,.wave2,.wave3,.wave4{
+        opacity: .35;
+    }
+    .buro{
+        margin-top: 150px;
+    }
+    .block__hi__1{
+        order: 2;
+        text-align: center;
+    }
+    .button__hi{
+        margin: 0 auto;
+    }
+    .flex__hi{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .img-saz{
+        margin-bottom: 50px;
+        &::before{
+            left: 30px;
+        }
+    }
+    .partner-wrap{
+        div{
+                 flex-basis: 220px;
+                flex-grow: 1;
+            margin-bottom: 25px;
+        }
+    }
+    .grid-photo{
+        justify-content: center;
+    }
+     .block__hi{
+        margin-top: 100px;
+    }
+    
+    .footer-flex{
+        display: block;
+      text-align: center;
+        
+    }
+    .footer-block{
+       margin: 0 auto;
+        input{
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+        
+    }
+    .footer-flex form button{
+        margin-top: 0px;
+    }
+    .buttons-footer{
+        margin: 20px auto;
+        margin-bottom: 80px;
+    }
+   
+}
+@media screen and(max-width:768px){
+    .img-ph{
+        margin-bottom: 50px;
+    }
+    .flex-blocks{
+        width: 100%;
+    }
+    .students h2{
+        font-size: 25px;
+    }
+    .flex-element{
+        width: auto;
+        min-height: 100px;
+    }
+    .flex-wrap svg{
+        display: none;
+    }
+    .background1{
+        padding:100px 25px 25px 25px;
+    }
+    .content h1{
+        font-size: 25px;
+        line-height: 40px;
+        letter-spacing: 1.1px;
+    }
+    .catalog__choice{
+        margin-top: 100px;
+    }
+
+    .button__sign{
+        max-width: 300px;
+        a{
+            font-size: 14px;
+            letter-spacing: 1.1px;
+            span{
+                width: 15px;
+                left: 240px;
+            }
+        }
+    }
+    .students{
+        margin-top: 150px;
+    }
+    .partners-img{
+        text-align: center;
+    }
+    .block__slider{
+        img{
+            width: 100%;
+        }
+    }
+    .sliderr::after{
+        top: 80px;
+    }
+    .news__university{
+        text-align: center;
+    }
+    .news__university::after{
+        right: 0;
+        left: 0;
+        margin: 10px auto;
+    }
+    .grid-photo{
+        padding: 0 20px;
+    }
+    .img-ph:hover {
+    transition: 0.5s ease-out;
+    transform: scale(1.02);
+}
+    .text__photo a{
+        font-size: 16px;
+    }
+    .text__photo span{
+        top: 4px;
+    }
+}
+@media screen and(max-width:560px){
+     .img-saz{
+        &::before{
+           display: none;
+        }
+    }
+    .kind__faculties::before{
+        left: 210px;
+    }
+    .flex__white__block a{
+        font-size: 14px;
+    }
+    .flex__white__block a span{
+        width: 10px;
+    }
+    .block__purpule{
+        padding: 30px;
+        min-height: auto;
+    }
+    .info__buro{
+        justify-content: center;
+    }
+    .pse__buro{
+        margin-bottom: 25px;
+        flex-grow: 1;
+        flex-basis: 200px;
+    }
+    .partners-img{
+        text-align: center;
+        div:last-child{
+        margin: 0 auto;
+        }
+    }
+    .partner-wrap{
+        margin-bottom: 25px;
+    }
+    .wrap-saz p{
+        font-size: 16px;
+        line-height:30px;
+    }
+    .content p{
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+    .catalog__choice{
+        padding-left: 25px;
+        padding-right: 25px;
+        background: #776aa2;
+        border: none;
+        height: auto;
+        a{
+            color: #fff;
+            &:hover{
+                color: none;
+            }
+        }
+    }
+    .catalog__choice a::after{
+        display: none;
+    }
+    .catalog__choice li{
+        padding-right: 25px;
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+    .catalog__choice {
+        li:last-child{
+            margin-bottom: 0;
+        }
+    }
+    .catalog__choice ul{
+        display: block;
+    }
+    .slider__content h3{
+        font-size: 18px;
+        br{
+            display: none;
+        }
+    }
+}
+@media screen and(max-width:380px){
+    .button__sign{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 250px;
+        a{
+            padding: 0;
+            span{
+                display: none;
+            }
+        }
+        
+        
+    }
+}
