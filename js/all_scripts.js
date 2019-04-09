@@ -80,7 +80,7 @@ $(".overlay").click(function(){
 
 
 
-$("#button").click(function(){
+$(".button__hi").click(function(){
   $(".popup1").toggleClass("show-block");
   $(".overlay1").toggleClass("show-block");
 });
